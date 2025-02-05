@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust involving unsafe code and raw pointers.  The `bug.rs` file shows code that modifies a vector through a raw pointer after it has been dropped, leading to undefined behavior. The `bugSolution.rs` file provides a corrected version using safe Rust practices.
